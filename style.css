@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header-left img{
+    object-fit: contain;
+    height: 20px;
+    margin-left: 4px;
+}
+
+.header
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid whitesmoke;
+}
+
+.header-left{
+    display: flex;
+    align-items: center;
+}
+
+.header-left span{
+    padding: 10px;
+    cursor: pointer;
+}
+
+.header-middle
+{
+    display: flex;
+    flex: 0.7px;
+    align-items:center;
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+.material-symbols-outlined
+{
+    color: gray;
+}
+
+.header-middle input
+{
+border: none;
+width: 100%;
+padding: 10px;
+outline: none;
+font-size:medium;
+background-color: transparent;
+}
+.header-right
+{
+    display: flex;
+    padding-right: 20px;
+}
+
+.header-right span
+{
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* sidebar css */
+
+.sidebar
+{
+    flex: 0.3;
+    max-width: 300px;
+    padding-right: 20px;
+}
+.sidebar-compose{
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    color: black;
+    padding: 15px;
+    border-radius: 30px;
+    background-color:rgb(194, 228, 233);
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.75);
+}
+
+.sidebar-compose span{
+    margin-right: 2px;
+}
+
+.sidebarOption
+{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    padding: 0 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius:10px;
+    cursor: pointer;
+    color:#818181;
+}
+.sidebarOption .material-symbols-outlined{
+    padding: 5px;
+
+}
+
+.sidebar h3{
+    flex: 1;
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.sidebarOption:hover,
+.sidebarOption:hover h3,
+.sidebarOption:hover .material-symbols-outlined,
+.sidebarOption-active,
+.sidebarOption-active h3,
+.sidebarOption-active .material-symbols-outlined
+{
+    background-color: #d1e7e5;
+    color: rgb(30, 31, 31);
+    font-weight: 800;
+}
